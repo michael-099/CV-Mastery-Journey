@@ -1,6 +1,10 @@
 import cv2
 import numpy as np
 
+
+
+
+
 # Load pre-trained model
 net = cv2.dnn.readNetFromCaffe(r'C:\Users\micha\OneDrive\Documents\2017codes\CV\Facial_Recognition_and_Landmark_Detection\deploy.prototxt.txt', r'C:\Users\micha\OneDrive\Documents\2017codes\CV\Facial_Recognition_and_Landmark_Detection\res10_300x300_ssd_iter_140000.caffemodel')
 
